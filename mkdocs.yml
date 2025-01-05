@@ -1,0 +1,47 @@
+site_name: "Документация SpaceAI"
+
+theme:
+  name: "material"
+  language: "ru"
+  palette:
+    - scheme: "slate"
+      primary: "black"
+      accent: "white"
+      toggle:
+        icon: "material/weather-night"
+        name: "Включить светлую тему"
+    - scheme: "default"
+      primary: "black"
+      accent: "white"
+      toggle:
+        icon: "material/weather-sunny"
+        name: "Включить тёмную тему"
+  features:
+    - "header.autohide"
+    - "navigation.instant"
+    - "navigation.instant.prefetch"
+    - "navigation.instant.progress"
+  logo: "_png/logo-white.png"
+  favicon: "_png/logo-white.png"
+
+extra:
+  generator: true
+  social:
+    - icon: "fontawesome/brands/github"
+      link: "https://github.com/spaceaipowered"
+    - icon: "fontawesome/brands/discord"
+      link: "https://discord.gg/WQESPYEdmw"
+
+markdown_extensions:
+  - "admonition"
+
+extra_css:
+  - "_css/index.css"
+
+extra_javascript:
+  - "_js/index.js"
+
+nav:
+  - "О проекте": "index.md"
+  - "FAQ": "faq.md"
+  - "Команды": "commands.md"
