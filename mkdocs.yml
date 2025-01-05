@@ -54,5 +54,6 @@ copyright: "Документация создана для проекта SpaceA
 
 nav:
   - "О проекте": "index.md"
-  - "FAQ": "faq.md"
+  - "Частые вопросы": "faq.md"
   - "Команды": "commands.md"
+  - "Ссылки и контакты": "links.md"
