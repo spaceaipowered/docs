@@ -7,5 +7,5 @@ https://docs.inx1.ru/spaceai
 2. type `./bash/copy_svgs.sh` to copy assets to the template icons directory (located in venv).
 3. type `mkdocs serve` (or `python -m mkdocs serve` if first command is not worked).
 ### Build HTML
-1. type `chmod +x ./bash/build.sh`.
+1. type `chmod +x ./bash/build.sh` to allow execution of script.
 2. type `./bash/build.sh` to build site.
