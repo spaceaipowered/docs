@@ -10,36 +10,45 @@ theme:
       toggle:
         icon: "material/weather-night"
         name: "Включить светлую тему"
+
     - scheme: "default"
       primary: "black"
       accent: "white"
       toggle:
         icon: "material/weather-sunny"
         name: "Включить тёмную тему"
+
   features:
     - "header.autohide"
     - "navigation.instant"
     - "navigation.instant.prefetch"
     - "navigation.instant.progress"
-  logo: "_png/logo-white.png"
-  favicon: "_png/logo-white.png"
+    - "navigation.footer"
+    - "content.action.edit"
+    - "content.action.view"
+  
+  icon:
+    repo: "svg/github"
+
+  logo: "assets/svg/logo.svg"
+  favicon: "assets/svg/logo.svg"
 
 extra:
   generator: true
   social:
-    - icon: "fontawesome/brands/github"
+    - icon: "svg/github"
       link: "https://github.com/spaceaipowered"
-    - icon: "fontawesome/brands/discord"
+    - icon: "svg/discord"
       link: "https://discord.gg/WQESPYEdmw"
 
-markdown_extensions:
-  - "admonition"
+markdown_extensions: ["admonition"]
 
-extra_css:
-  - "_css/index.css"
+extra_javascript: ["assets/javascript/index.js"]
+extra_css: ["assets/style/style.css"]
 
-extra_javascript:
-  - "_js/index.js"
+repo_url: "https://github.com/spaceaipowered/docs"
+repo_name: "spaceaipowered/docs"
+edit_uri: "edit/main/docs/"
 
 nav:
   - "О проекте": "index.md"
