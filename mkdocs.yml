@@ -43,9 +43,6 @@ extra:
 
 markdown_extensions: ["admonition"]
 
-extra_javascript: ["assets/javascript/index.js"]
-extra_css: ["assets/style/style.css"]
-
 repo_url: "https://github.com/spaceaipowered/docs"
 repo_name: "spaceaipowered/docs"
 edit_uri: "edit/main/docs/"
