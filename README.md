@@ -6,6 +6,6 @@ https://docs.inx1.ru/spaceai
 1. type `chmod +x ./bash/copy_assets.sh` to allow script execution.
 2. type `./bash/copy_assets.sh` to copy assets to the template icons directory (located in venv).
 3. type `mkdocs serve` (or `python -m mkdocs serve` if first command is not worked).
-### Build HTML
+### Build
 1. type `chmod +x ./bash/build.sh` to allow script execution.
 2. type `./bash/build.sh` to build site.
