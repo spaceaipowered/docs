@@ -1,5 +1,5 @@
 site_name: "Документация SpaceAI"
-site_url: "/spaceai"
+site_url: "https://docs.inx1.ru/spaceai"
 
 theme:
   name: "material"
