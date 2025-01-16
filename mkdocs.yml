@@ -1,4 +1,5 @@
 site_name: "Документация SpaceAI"
+site_url: "/spaceai"
 
 theme:
   name: "material"
